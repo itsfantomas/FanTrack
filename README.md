@@ -34,23 +34,23 @@ FanTrack is an offline-first, single-page web application for organizing everyda
 FanTrack adopts a **strict local-first architecture**. There is no backend, no database, and no telemetry.
 
 ```
-┌─────────────────────────────────────────────────┐
-│                   Browser                       │
-│                                                 │
-│  ┌───────────┐   ┌──────────────────────────┐   │
-│  │  React UI │──▶│     localStorage         │   │
-│  │  (SPA)    │   │  ● glass-trackers (data) │   │
-│  │           │   │  ● glass-settings (prefs) │  │
-│  └─────┬─────┘   └──────────────────────────┘   │
-│        │                                        │
-│        │ (only when AI is used)                 │
-│        ▼                                        │
-│  ┌───────────────┐       ┌──────────────────┐   │
+┌──────────────────────────────────────────────────┐
+│                     Browser                      │
+│                                                  │
+│  ┌───────────┐   ┌───────────────────────────┐   │
+│  │  React UI │──▶│       localStorage        │   │
+│  │  (SPA)    │   │  ● glass-trackers (data)  │   │
+│  │           │   │  ● glass-settings (prefs) │   │
+│  └─────┬─────┘   └───────────────────────────┘   │
+│        │                                         │
+│        │ (only when AI is used)                  │
+│        ▼                                         │
+│  ┌───────────────┐       ┌───────────────────┐   │
 │  │ geminiService │──────▶│ Google Gemini API │   │
-│  │  (client-side)│  HTTPS│    (external)     │   │
-│  └───────────────┘       └──────────────────┘   │
-│                                                 │
-└─────────────────────────────────────────────────┘
+│  │ (client-side) │ HTTPS │    (external)     │   │
+│  └───────────────┘       └───────────────────┘   │
+│                                                  │
+└──────────────────────────────────────────────────┘
 ```
 
 ### What stays in your browser
@@ -203,7 +203,7 @@ To enable AI suggestions:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/fantrack.git
+git clone https://github.com/itsfantomas/fantrack.git
 cd fantrack
 
 # 2. Install dependencies
@@ -264,24 +264,23 @@ FanTrack — это оффлайн-ориентированное одностр
 FanTrack использует **строгую локальную архитектуру**. Нет бэкенда, нет базы данных, нет телеметрии.
 
 ```
-┌───────────────────────────────────────────────────┐
-│                    Браузер                         │
-│                                                   │
-│  ┌───────────┐   ┌───────────────────────────┐    │
-│  │  React UI │──▶│       localStorage        │    │
-│  │  (SPA)    │   │  ● glass-trackers (данные) │   │
-│  │           │   │  ● glass-settings (опции)  │   │
-│  └─────┬─────┘   └───────────────────────────┘    │
-│        │                                          │
-│        │ (только при использовании AI)             │
-│        ▼                                          │
-│  ┌───────────────┐       ┌──────────────────┐     │
-│  │ geminiService │──────▶│ Google Gemini API │     │
-│  │ (клиентская   │ HTTPS │   (внешний)       │    │
-│  │  сторона)     │       └──────────────────┘     │
-│  └───────────────┘                                │
-│                                                   │
-└───────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────┐
+│                     Браузер                      │
+│                                                  │
+│  ┌───────────┐   ┌───────────────────────────┐   │
+│  │  React UI │──▶│       localStorage        │   │
+│  │  (SPA)    │   │  ● glass-trackers (данные)│   │
+│  │           │   │  ● glass-settings (опции) │   │
+│  └─────┬─────┘   └───────────────────────────┘   │
+│        │                                         │
+│        │ (только при использовании AI)           │
+│        ▼                                         │
+│  ┌───────────────┐       ┌───────────────────┐   │
+│  │ geminiService │──────▶│ Google Gemini API │   │
+│  │ (клиент-сайд) │ HTTPS │     (внешний)     │   │
+│  └───────────────┘       └───────────────────┘   │
+│                                                  │
+└──────────────────────────────────────────────────┘
 ```
 
 ### Что хранится в вашем браузере
@@ -434,7 +433,7 @@ fantrack/
 
 ```bash
 # 1. Клонируйте репозиторий
-git clone https://github.com/your-username/fantrack.git
+git clone https://github.com/itsfantomas/fantrack.git
 cd fantrack
 
 # 2. Установите зависимости

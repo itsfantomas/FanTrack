@@ -225,9 +225,14 @@ The app will be available at **http://localhost:3000**.
 
 ---
 
-## 📄 License
+## ⚖️ License
 
-This project is provided as-is for personal use.
+This project is licensed under the **[Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/)** (CC BY-NC 4.0).
+
+You are free to use, modify, and share this code for personal and educational purposes. 
+**Commercial use, selling, or monetization of this code or its derivatives is strictly prohibited.**
+
+*Copyright © 2024-2026 Mariia Br.*
 
 ---
 ---
@@ -451,6 +456,11 @@ npm run dev
 
 ---
 
-## 📄 Лицензия
+## ⚖️ Лицензия (License)
 
-Проект предоставляется «как есть» для личного использования.
+Этот проект распространяется по лицензии **[Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/)** (CC BY-NC 4.0).
+
+Вы можете свободно использовать, изучать, изменять и делиться этим кодом в личных и образовательных целях. 
+**Коммерческое использование, продажа или монетизация этого кода или его производных строго запрещены.**
+
+*Copyright © 2024-2026 Mariia Br. All Rights Reserved.*
